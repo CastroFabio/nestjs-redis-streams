@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { NotificationsGateway } from './websocket/notifications.gateway.js';
-import { NotificationsService } from './notifications/notifications.service.js';
-import { NotificationsController } from './notifications/notifications.controller.js';
+import { NotificationsGateway } from './websocket/notifications.gateway';
+import { NotificationsService } from './notifications/notifications.service';
+import { NotificationsController } from './notifications/notifications.controller';
 
 @Module({
   imports: [],

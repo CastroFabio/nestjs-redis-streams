@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import {
-  Notification,
   NotificationsGateway,
-} from '../websocket/notifications.gateway.js';
+  Notification,
+} from '../websocket/notifications.gateway';
 import { randomUUID } from 'crypto';
 
 @Injectable()

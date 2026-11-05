@@ -1,8 +1,16 @@
 {
-  "extends": "./tsconfig.json",
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+
     "rootDir": "./src"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+  "include": ["src/**/*"],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts",
+    "vitest.config.ts",
+    "vitest.config.e2e.ts"
+  ]
 }
